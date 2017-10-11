@@ -1,0 +1,38 @@
+{
+    "name": "lit-html",
+    "displayName": "lit-html",
+    "description": "Syntax highlighting for lit-html tagged templates",
+    "version": "0.0.1",
+    "publisher": "bierner",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "lit-html",
+        "javascript",
+        "typescript",
+        "html",
+        "template"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.js.jsx",
+                    "source.jsx",
+                    "source.ts",
+                    "source.tsx"
+                ],
+                "scopeName": "inline.lit-html",
+                "path": "./syntaxes/lit-html.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.html": "html"
+                }
+            }
+        ]
+    }
+}
