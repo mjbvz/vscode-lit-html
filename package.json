@@ -2,8 +2,13 @@
     "name": "lit-html",
     "displayName": "lit-html",
     "description": "Syntax highlighting for lit-html tagged templates",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "bierner",
+    "icon": "docs/logo.png",
+    "galleryBanner": {
+        "color": "#fcfcfc",
+        "theme": "light"
+    },
     "repository": {
         "url": "https://github.com/mjbvz/vscode-lit-html.git"
     },
