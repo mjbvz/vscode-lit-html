@@ -1,6 +1,6 @@
 {
 	"fileTypes": [],
-	"injectionSelector": "L:source -comment",
+	"injectionSelector": "L:source -comment -string",
 	"patterns": [
 		{
 			"name": "taggedTemplates",
