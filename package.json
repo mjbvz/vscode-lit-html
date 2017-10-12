@@ -2,7 +2,7 @@
     "name": "lit-html",
     "displayName": "lit-html",
     "description": "Syntax highlighting for lit-html tagged templates",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "bierner",
     "icon": "docs/logo.png",
     "galleryBanner": {
