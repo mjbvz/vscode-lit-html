@@ -43,6 +43,34 @@
                 "embeddedLanguages": {
                     "meta.embedded.block.html": "html"
                 }
+            },
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.js.jsx",
+                    "source.jsx",
+                    "source.ts",
+                    "source.tsx"
+                ],
+                "scopeName": "inline.lit-html.double.quoted.string.injection",
+                "path": "./syntaxes/lit-html-double-quoted-string-injection.json",
+                "embeddedLanguages": {
+                    "meta.template.expression.ts": "typescript"
+                }
+            },
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.js.jsx",
+                    "source.jsx",
+                    "source.ts",
+                    "source.tsx"
+                ],
+                "scopeName": "inline.lit-html.quoted.string.injection",
+                "path": "./syntaxes/lit-html-quoted-string-injection.json",
+                "embeddedLanguages": {
+                    "meta.template.expression.ts": "typescript"
+                }
             }
         ],
         "typescriptServerPlugins": [

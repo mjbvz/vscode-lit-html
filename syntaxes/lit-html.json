@@ -1,9 +1,19 @@
 {
 	"fileTypes": [],
 	"injectionSelector": "L:source -comment -string",
+	"injections": {
+		"L:source": {
+			"patterns": [
+				{
+					"match": "<",
+					"name": "invalid.illegal.bad-angle-bracket.html"
+				}
+			]
+		}
+	},
 	"patterns": [
 		{
-			"name": "taggedTemplates",
+			"name": "string.js.taggedTemplate",
 			"contentName": "meta.embedded.block.html",
 			"begin": "(?x)(\\s+?(\\w+\\.)?(?:html|raw)\\s*)(`)",
 			"beginCaptures": {
