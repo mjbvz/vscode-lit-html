@@ -1,7 +1,10 @@
 # Change Log
 
+## 1.1.0 - January 12, 2018
+- Pick up new plugin version that adds completion entry details and fixes some bugs.
+
 ## 1.0.0 - January 11, 2018
-- Highlight JS substitution  in html string attributes
+- Highlight JS substitutions in html string attributes
 - Adds html language support: IntelliSense, hover, formatting. Requires VS Code 1.20
 
 ## 0.2.0 - December 13, 2017
