@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.0 - January 11, 2018
+- Highlight JS substitution  in html string attributes
+- Adds html language support: IntelliSense, hover, formatting. Requires VS Code 1.20
+
 ## 0.2.0 - December 13, 2017
 - Support spaces after html tag. Thanks @mhoyer!
 - Support `obj.html` style tags. Thanks @mhoyer!
