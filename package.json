@@ -51,7 +51,8 @@
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
-                    "source.tsx"
+                    "source.tsx",
+                    "text.html.basic"
                 ],
                 "scopeName": "inline.lit-html.quoted.string.injection",
                 "path": "./syntaxes/lit-html-quoted-string-injection.json",
