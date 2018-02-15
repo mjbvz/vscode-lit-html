@@ -15,7 +15,7 @@
 		{
 			"name": "string.js.taggedTemplate",
 			"contentName": "meta.embedded.block.html",
-			"begin": "(?x)(\\s+?(\\w+\\.)?(?:html|raw)\\s*)(`)",
+			"begin": "(?x)(\\s+?(\\w+\\.)?(?:html|raw|render)\\s*)?(`)(?=$|\\s*<[a-zA-Z!])",
 			"beginCaptures": {
 				"1": {
 					"name": "entity.name.function.tagged-template.js"
