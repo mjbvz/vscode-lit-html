@@ -59,6 +59,21 @@
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }
+            },
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.js.jsx",
+                    "source.jsx",
+                    "source.ts",
+                    "source.tsx",
+                    "text.html.basic"
+                ],
+                "scopeName": "inline.lit-html-svg",
+                "path": "./syntaxes/lit-html-svg.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.xml": "xml"
+                }
             }
         ],
         "typescriptServerPlugins": [
