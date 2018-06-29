@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.4.1 - June 29, 2018
+- Don't return signature help inside html template strings.
+
 ## 1.4.0 - June 29, 2018
 - Added css IntelliSense inside of `<style>` tags. Thanks @justinribeiro!
 
