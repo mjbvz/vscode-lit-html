@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.4.0 - June 29, 2018
+- Added css IntelliSense inside of `<style>` tags. Thanks @justinribeiro!
+
 ## 1.3.0 - June 11, 2018
 - Add support for syntax highlighting of lit-html `svg` blocks. Thanks @justinribeiro!
 
