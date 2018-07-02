@@ -1,6 +1,6 @@
 {
 	"fileTypes": [],
-	"injectionSelector": "L:source.js -comment -string, L:source.jsx -comment -string,  L:source.js.jsx -comment -string, L:source.ts -comment -string, L:source.tsx -comment -string",
+	"injectionSelector": "L:source.js -comment -(string -meta.embedded), L:source.jsx -comment -(string -meta.embedded),  L:source.js.jsx -comment -(string -meta.embedded), L:source.ts -comment -(string -meta.embedded), L:source.tsx -comment -(string -meta.embedded)",
 	"injections": {
 		"L:source": {
 			"patterns": [
