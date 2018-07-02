@@ -42,7 +42,9 @@
                 "scopeName": "inline.lit-html",
                 "path": "./syntaxes/lit-html.json",
                 "embeddedLanguages": {
-                    "meta.embedded.block.html": "html"
+                    "meta.embedded.block.html": "html",
+                    "meta.embedded.block.css": "css",
+                    "source.css": "css"
                 }
             },
             {
