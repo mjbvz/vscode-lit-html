@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.4.2 - July 2, 2018
+- Use css comments in style blocks. Thanks @justinribeiro!
+- Fix syntax highlighting not working in some cases.
+
 ## 1.4.1 - June 29, 2018
 - Don't return signature help inside html template strings.
 
