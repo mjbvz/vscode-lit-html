@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.4.3 - July 2, 2018
+- Fix a few more cases where syntax highlighting was not working
+
 ## 1.4.2 - July 2, 2018
 - Use css comments in style blocks. Thanks @justinribeiro!
 - Fix syntax highlighting not working in some cases.
