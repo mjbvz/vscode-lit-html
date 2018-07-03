@@ -1,7 +1,10 @@
 # Change Log
 
+## 1.5.0 - July 3, 2018
+- Added folding support.
+
 ## 1.4.3 - July 2, 2018
-- Fix a few more cases where syntax highlighting was not working
+- Fix a few more cases where syntax highlighting was not working.
 
 ## 1.4.2 - July 2, 2018
 - Use css comments in style blocks. Thanks @justinribeiro!
