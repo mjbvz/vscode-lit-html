@@ -85,6 +85,6 @@
         ]
     },
     "dependencies": {
-        "typescript-lit-html-plugin": "0.4.1"
+        "typescript-lit-html-plugin": "0.4.2"
     }
 }
