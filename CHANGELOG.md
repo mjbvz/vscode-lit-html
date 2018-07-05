@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.5.2 - July 5, 2018
+- Use more consistent look for quick info hover. Thanks @justinribeiro!
+
 ## 1.5.1 - July 3, 2018
 - Return css quickInfo inside styled blocks. Thanks @justinribeiro!
 
