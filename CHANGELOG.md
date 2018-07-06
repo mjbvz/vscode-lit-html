@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.6.0 - July 6, 2018
+- Error reporting and quick fixes for css in style tags. Thanks @justinribeiro!
+
 ## 1.5.2 - July 5, 2018
 - Use more consistent look for quick info hover. Thanks @justinribeiro!
 

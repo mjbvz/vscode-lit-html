@@ -2,7 +2,7 @@
     "name": "lit-html",
     "displayName": "lit-html",
     "description": "Syntax highlighting for html inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.5.2",
+    "version": "1.6.0",
     "publisher": "bierner",
     "icon": "docs/logo.png",
     "galleryBanner": {
@@ -85,6 +85,6 @@
         ]
     },
     "dependencies": {
-        "typescript-lit-html-plugin": "0.4.2"
+        "typescript-lit-html-plugin": "0.5.0"
     }
 }
