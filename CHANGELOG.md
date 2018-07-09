@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.6.1 - July 9, 2018
+- Fix some false errors when placeholders are used in styled block.
+
 ## 1.6.0 - July 6, 2018
 - Error reporting and quick fixes for css in style tags. Thanks @justinribeiro!
 
