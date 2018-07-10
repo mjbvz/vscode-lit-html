@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.6.2 - July 9, 2018
+- Disable format for html that contains styled blocks to prevent an annoying bug.
+
 ## 1.6.1 - July 9, 2018
 - Fix some false errors when placeholders are used in styled block.
 
