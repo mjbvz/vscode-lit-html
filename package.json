@@ -3,7 +3,7 @@
     "private": true,
     "displayName": "lit-html",
     "description": "Syntax highlighting and IntelliSense for html inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "publisher": "bierner",
     "icon": "docs/logo.png",
     "license": "MIT",
@@ -87,6 +87,6 @@
         ]
     },
     "dependencies": {
-        "typescript-lit-html-plugin": "0.6.0"
+        "typescript-lit-html-plugin": "0.7.0"
     }
 }
