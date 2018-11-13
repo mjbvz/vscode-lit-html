@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.8.0 - November 13, 2018
+- Fix some false positive reporting for styles. Thanks @csvn!
+- Tag matching highlighting. Requires VS Code 1.30+
+- Picked up new styled components version which includes some bug fixes and enhancements.
+
 ## 1.7.0 - October 15, 2018
 - Pick up new html service version with bug fixes and features like vendor info.
 - Pick up new decorator library version to fix a possible state corruption error.
