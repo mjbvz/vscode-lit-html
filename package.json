@@ -17,9 +17,6 @@
     "bugs": {
         "url": "https://github.com/mjbvz/vscode-lit-html/issues"
     },
-    "engines": {
-        "vscode": "^1.15.0"
-    },
     "categories": [
         "Programming Languages"
     ],
@@ -30,7 +27,37 @@
         "html",
         "template"
     ],
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "activationEvents": [
+        "onLanguage:javascript",
+        "onLanguage:javascriptreact",
+        "onLanguage:typescript",
+        "onLanguage:typescriptreact"
+    ],
+    "main": "./out/index.js",
     "contributes": {
+        "configuration": [
+            {
+                "id": "lit-html",
+                "title": "Lit HTML",
+                "properties": {
+                    "lit-html.tags": {
+                        "type": "array",
+                        "description": "List of template tags to enable html intellisense in.",
+                        "items": {
+                            "type": "string",
+                            "description": "Tag name."
+                        },
+                        "default": [
+                            "html",
+                            "raw"
+                        ]
+                    }
+                }
+            }
+        ],
         "grammars": [
             {
                 "injectTo": [
@@ -96,7 +123,17 @@
             }
         ]
     },
+    "scripts": {
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -p ./",
+        "watch": "tsc -w -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
     "dependencies": {
         "typescript-lit-html-plugin": "0.7.1"
+    },
+    "devDependencies": {
+        "typescript": "^3.1.6",
+        "vscode": "^1.1.21"
     }
 }
