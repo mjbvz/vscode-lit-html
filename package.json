@@ -54,6 +54,11 @@
                             "html",
                             "raw"
                         ]
+                    },
+                    "lit-html.format.enabled": {
+                        "type": "boolean",
+                        "description": "Enable/disable formatting of html template strings.",
+                        "default": true
                     }
                 }
             }

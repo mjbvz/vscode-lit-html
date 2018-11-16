@@ -7,6 +7,9 @@ const configurationSection = 'lit-html';
 
 interface SynchronizedConfiguration {
     tags?: ReadonlyArray<string>;
+    format: {
+        enabled?: boolean;
+    }
 }
 
 export async function activate(context: vscode.ExtensionContext) {
@@ -35,11 +38,18 @@ function synchronizeConfiguration() {
 
 function getConfiguration(): SynchronizedConfiguration {
     const config = vscode.workspace.getConfiguration(configurationSection);
-    const outConfig: SynchronizedConfiguration = Object.create(null);
+    const outConfig: SynchronizedConfiguration = {
+        format: {}
+    };
 
-    if (config.has('tags')) {
-        outConfig.tags = config.get<string[]>('tags');
-    }
+    withConfigValue<string[]>(config, 'tags', tags => { outConfig.tags = tags; });
+    withConfigValue<boolean>(config, 'format.enabled', enabled => { outConfig.format.enabled = enabled; });
 
     return outConfig;
+}
+
+function withConfigValue<T>(config: vscode.WorkspaceConfiguration, key: string, withValue: (value: T) => void): void {
+    if (config.has(key)) {
+        withValue(config.get<T>(key)!);
+    }
 }
