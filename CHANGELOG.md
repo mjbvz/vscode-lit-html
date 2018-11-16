@@ -1,10 +1,14 @@
 # Change Log
 
+## 1.10.0 - November 16, 2018
+- Auto closing tags.
+- Prevent multiple copies of completions and other features from potentially showing up.
+
 ## 1.9.0 - November 16, 2018
 - Allow configuring plugin using VS Code directly. Requires TS 3.2+ and VS Code 1.30+.
 
 ## 1.8.2 - November 15, 2018
-- Add schema for jsconfig and tsconfig settings.
+- Add schema for `jsconfig` and `tsconfig` settings.
 
 ## 1.8.1 - November 15, 2018
 - Fix tag highlighting when using TS 3.1+.

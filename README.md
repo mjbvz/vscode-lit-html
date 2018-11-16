@@ -5,11 +5,21 @@ Adds syntax highlighting and language support for html inside of JavaScript and 
 ![](https://github.com/mjbvz/vscode-lit-html/raw/master/docs/example.gif)
 
 
+## Features
+
+- Syntax highlighting of inline html blocks.
+- IntelliSense for html tags and attributes.
+- Quick info hovers on tags.
+- Formatting support.
+- Auto closing tags.
+- Folding html.
+- CSS completions in style blocks.
+- Works with literal html strings that contain placeholders.
+
 ## Usage
 The lit-html extension adds highlighting and IntelliSense for lit-html template strings in JavaScript and TypeScript. It works out of the box when you use VS Code's built-in version of TypeScript.
 
 If you are [using a workspace version of typescript](https://code.visualstudio.com/Docs/languages/typescript#_using-newer-typescript-versions), you must currently configure the TS Server plugin manually by following [these instructions](https://github.com/Microsoft/typescript-lit-html-plugin#usage)
-
 
 ## Configuration
 
