@@ -84,6 +84,16 @@
             {
                 "name": "typescript-lit-html-plugin"
             }
+        ],
+        "jsonValidation": [
+            {
+                "fileMatch": "jsconfig*.json",
+                "url": "./schemas/tsconfig.schema.json"
+            },
+            {
+                "fileMatch": "tsconfig*.json",
+                "url": "./schemas/tsconfig.schema.json"
+            }
         ]
     },
     "dependencies": {

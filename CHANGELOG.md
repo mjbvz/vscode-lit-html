@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.8.2 - November 15, 2018
+- Add schema for jsconfig and tsconfig settings.
+
 ## 1.8.1 - November 15, 2018
 - Fix tag highlighting when using TS 3.1+.
 
