@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.9.0 - November 16, 2018
+- Allow configuring plugin using VS Code directly. Requires TS 3.2+ and VS Code 1.30+.
+
 ## 1.8.2 - November 15, 2018
 - Add schema for jsconfig and tsconfig settings.
 
