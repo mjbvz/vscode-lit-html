@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.10.1 - November 16, 2018
+- Fix bug that could cause incorrect overriding of `tsconfig` settings by VS Code settings. 
+
 ## 1.10.0 - November 16, 2018
 - Auto closing tags.
 - Prevent multiple copies of completions and other features from potentially showing up.
