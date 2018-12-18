@@ -90,8 +90,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html.quoted.string.injection",
-                "path": "./syntaxes/lit-html-quoted-string-injection.json",
+                "scopeName": "inline.lit-html.string.injection",
+                "path": "./syntaxes/lit-html-string-injection.json",
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }
