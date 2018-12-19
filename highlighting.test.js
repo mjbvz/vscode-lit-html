@@ -12,6 +12,11 @@
     <li>${index}: ${i.name}</li>`)}
 </ul>
 `; ƒ
+
+    const unquoted = html`
+<h2 .title=${ 'This is a title' }></h2>
+<input .value=${ 'test' } @input=${ e => console.log(e) }>
+`;
 }
 
 { // Should not highlight html
