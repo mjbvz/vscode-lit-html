@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.11.0 - December 19, 2018
+- Fixed syntax highlighting of unquoted attributes. Thanks @csvn!
+- Use TS api instead of command to sync settings with VS Code.
+- Enable loading of plugin when using workspace version of TypeScript. Requires VS Code 1.31+
+
 ## 1.10.1 - November 16, 2018
 - Fix bug that could cause incorrect overriding of `tsconfig` settings by VS Code settings. 
 
