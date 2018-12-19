@@ -1,6 +1,6 @@
 {
 	"fileTypes": [],
-	"injectionSelector": "L:source.js (meta.tag), L:source.jsx (meta.tag), L:source.js.jsx (meta.tag), L:source.ts (meta.tag), L:source.tsx (meta.tag)",
+	"injectionSelector": "L:meta.embedded.block.html meta.tag",
 	"patterns": [
 		{
 			"include": "source.ts#template-substitution-element"
