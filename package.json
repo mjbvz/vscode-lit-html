@@ -132,7 +132,8 @@
         "vscode:prepublish": "tsc -p ./",
         "compile": "tsc -p ./",
         "watch": "tsc -w -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install"
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test ./test"
     },
     "dependencies": {
         "typescript-lit-html-plugin": "0.9.0"

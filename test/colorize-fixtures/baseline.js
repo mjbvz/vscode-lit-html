@@ -1,6 +1,3 @@
-// Manual test cases for syntax highlighting
-// TODO: automate these
-
 { // Should highlight html
     const a = html`<a>`;
     html`<a>`;
@@ -12,11 +9,6 @@
     <li>${index}: ${i.name}</li>`)}
 </ul>
 `; ƒ
-
-    const unquoted = html`
-<h2 .title=${ 'This is a title' }></h2>
-<input .value=${ 'test' } @input=${ e => console.log(e) }>
-`;
 }
 
 { // Should not highlight html
