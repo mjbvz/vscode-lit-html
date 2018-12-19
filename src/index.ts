@@ -1,8 +1,7 @@
 import * as vscode from 'vscode';
 
 const typeScriptExtensionId = 'vscode.typescript-language-features';
-const litHtmlPluginId = 'typescript-lit-html-plugin';
-const configurePluginCommand = '_typescript.configurePlugin';
+const pluginId = 'typescript-lit-html-plugin';
 const configurationSection = 'lit-html';
 
 interface SynchronizedConfiguration {
@@ -19,21 +18,25 @@ export async function activate(context: vscode.ExtensionContext) {
     }
 
     await extension.activate();
-    if (!extension.exports) {
+    if (!extension.exports || !extension.exports.getAPI) {
+        return;
+    }
+    const api = extension.exports.getAPI(0);
+    if (!api) {
         return;
     }
 
     vscode.workspace.onDidChangeConfiguration(e => {
         if (e.affectsConfiguration(configurationSection)) {
-            synchronizeConfiguration();
+            synchronizeConfiguration(api);
         }
     }, undefined, context.subscriptions);
 
-    synchronizeConfiguration();
+    synchronizeConfiguration(api);
 }
 
-function synchronizeConfiguration() {
-    vscode.commands.executeCommand(configurePluginCommand, litHtmlPluginId, getConfiguration());
+function synchronizeConfiguration(api: any) {
+    api.configurePlugin(pluginId, getConfiguration());
 }
 
 function getConfiguration(): SynchronizedConfiguration {
