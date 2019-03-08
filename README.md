@@ -1,6 +1,6 @@
 [![](https://vsmarketplacebadge.apphb.com/version/bierner.lit-html.svg)](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html) [![Build Status](https://travis-ci.org/mjbvz/vscode-lit-html.svg?branch=master)](https://travis-ci.org/mjbvz/vscode-lit-html)
 
-Adds syntax highlighting and language support for html inside of JavaScript and TypeScript tagged template strings, such as used in [lit-html](https://github.com/PolymerLabs/lit-html) and other frameworks.
+Adds syntax highlighting and language support for html inside of JavaScript and TypeScript tagged template strings, such as used in [lit-html](https://github.com/Polymer/lit-html) and other frameworks.
 
 ![](https://github.com/mjbvz/vscode-lit-html/raw/master/docs/example.gif)
 
