@@ -12,7 +12,7 @@
 	},
 	{
 		"c": "`",
-		"t": "source.js string.js.taggedTemplate string.js",
+		"t": "source.js string.js.taggedTemplate punctuation.definition.string.template.begin.js",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
