@@ -815,13 +815,13 @@
 	},
 	{
 		"c": "id",
-		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate meta.embedded.block.html meta.template.expression.ts meta.embedded.line.ts variable.other.property.ts",
+		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate meta.embedded.block.html meta.template.expression.ts meta.embedded.line.ts support.variable.property.dom.ts",
 		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
+			"dark_plus": "support.variable: #9CDCFE",
+			"light_plus": "support.variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
-			"hc_black": "variable: #9CDCFE"
+			"hc_black": "support.variable: #9CDCFE"
 		}
 	},
 	{
@@ -1090,13 +1090,13 @@
 	},
 	{
 		"c": "name",
-		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate meta.embedded.block.html meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts string.js.taggedTemplate meta.embedded.block.html meta.template.expression.ts meta.embedded.line.ts variable.other.property.ts",
+		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate meta.embedded.block.html meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts string.js.taggedTemplate meta.embedded.block.html meta.template.expression.ts meta.embedded.line.ts support.variable.property.dom.ts",
 		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
+			"dark_plus": "support.variable: #9CDCFE",
+			"light_plus": "support.variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
-			"hc_black": "variable: #9CDCFE"
+			"hc_black": "support.variable: #9CDCFE"
 		}
 	},
 	{
@@ -2982,13 +2982,13 @@
 	},
 	{
 		"c": "id",
-		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate.svg meta.embedded.block.svg meta.template.expression.ts meta.embedded.line.ts variable.other.property.ts",
+		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate.svg meta.embedded.block.svg meta.template.expression.ts meta.embedded.line.ts support.variable.property.dom.ts",
 		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
+			"dark_plus": "support.variable: #9CDCFE",
+			"light_plus": "support.variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
-			"hc_black": "variable: #9CDCFE"
+			"hc_black": "support.variable: #9CDCFE"
 		}
 	},
 	{
@@ -3257,13 +3257,13 @@
 	},
 	{
 		"c": "name",
-		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate.svg meta.embedded.block.svg meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts string.js.taggedTemplate.svg meta.embedded.block.svg meta.template.expression.ts meta.embedded.line.ts variable.other.property.ts",
+		"t": "source.js meta.block.js meta.var.expr.js meta.arrow.js string.js.taggedTemplate.svg meta.embedded.block.svg meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts string.js.taggedTemplate.svg meta.embedded.block.svg meta.template.expression.ts meta.embedded.line.ts support.variable.property.dom.ts",
 		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
+			"dark_plus": "support.variable: #9CDCFE",
+			"light_plus": "support.variable: #001080",
 			"dark_vs": "meta.embedded: #D4D4D4",
 			"light_vs": "meta.embedded: #000000",
-			"hc_black": "variable: #9CDCFE"
+			"hc_black": "support.variable: #9CDCFE"
 		}
 	},
 	{

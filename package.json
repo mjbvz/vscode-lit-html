@@ -148,14 +148,17 @@
         "vscode:prepublish": "tsc -p ./",
         "compile": "tsc -p ./",
         "watch": "tsc -w -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test ./test"
+        "test": "node ./out/test"
     },
     "dependencies": {
         "typescript-lit-html-plugin": "0.9.0"
     },
     "devDependencies": {
+        "@types/node": "^12.7.5",
+        "@types/vscode": "^1.38.0",
+        "glob": "^7.1.4",
+        "mocha": "^6.2.0",
         "typescript": "^3.6.3",
-        "vscode": "^1.1.36"
+        "vscode-test": "^1.2.0"
     }
 }
