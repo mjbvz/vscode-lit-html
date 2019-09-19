@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.11.1 - September 18, 2019
+- Fixed opening quotes not being scoped properly. Thanks @kufii!
+
 ## 1.11.0 - December 19, 2018
 - Fixed syntax highlighting of unquoted attributes. Thanks @csvn!
 - Use TS api instead of command to sync settings with VS Code.
