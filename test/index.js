@@ -6,6 +6,7 @@ module.exports.run = (testsRoot, cb) => {
 	// Create the mocha test
 	const mocha = new Mocha({
 		ui: 'tdd',
+		timeout: 10000
 	});
 	mocha.useColors(true);
 
@@ -19,10 +20,9 @@ module.exports.run = (testsRoot, cb) => {
 
 		try {
 			// Run the mocha test
-			mocha
-				.run(failures => {
-					cb(null, failures);
-				});
+			mocha.run(failures => {
+				cb(null, failures);
+			});
 
 		} catch (err) {
 			cb(err);
