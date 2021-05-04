@@ -71,7 +71,8 @@
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
-                    "text.html.basic"
+                    "text.html.basic",
+                    "text.html.derivative"
                 ],
                 "scopeName": "inline.lit-html",
                 "path": "./syntaxes/lit-html.json",
@@ -88,7 +89,8 @@
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
-                    "text.html.basic"
+                    "text.html.basic",
+                    "text.html.derivative"
                 ],
                 "scopeName": "inline.lit-html.string.injection",
                 "path": "./syntaxes/lit-html-string-injection.json",
@@ -103,7 +105,8 @@
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
-                    "text.html.basic"
+                    "text.html.basic",
+                    "text.html.derivative"
                 ],
                 "scopeName": "inline.lit-html.style.injection",
                 "path": "./syntaxes/lit-html-style-injection.json",
@@ -118,7 +121,8 @@
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
-                    "text.html.basic"
+                    "text.html.basic",
+                    "text.html.derivative"
                 ],
                 "scopeName": "inline.lit-html-svg",
                 "path": "./syntaxes/lit-html-svg.json",
