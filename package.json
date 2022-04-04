@@ -71,7 +71,8 @@
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
-                    "text.html.basic"
+                    "text.html.basic",
+                    "text.html.php"
                 ],
                 "scopeName": "inline.lit-html",
                 "path": "./syntaxes/lit-html.json",
